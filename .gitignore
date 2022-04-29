@@ -1,2 +1,6 @@
 data/flatiron_paths/*
 data/flatiron_videos/*
+username.txt
+password.txt
+flatironVideos/*
+data/*.csv
