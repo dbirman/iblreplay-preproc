@@ -50,7 +50,8 @@ def export_paths(eid):
                  ('trials.feedback_times', 'alf'), # time of valve click or white noise to indicate reward/ punishment
                  ('trials.feedbackType', 'alf'), # whether correct or incorrect
                  ('trials.contrastLeft', 'alf'),
-                 ('trials.contrastRight', 'alf')
+                 ('trials.contrastRight', 'alf'),
+                 ('licks.times','alf')
         ]
         
         # make sure we at a minimum have spikes
